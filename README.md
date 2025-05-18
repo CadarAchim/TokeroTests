@@ -1,15 +1,17 @@
-🚀 Tokero Website Automation Test Documentation
-📋 Project Overview
+# 🚀 Tokero Website Automation Test Documentation
+
+##📋 Project Overview
 This documentation describes an automated testing framework developed for the Tokero website (https://tokero.dev/en) using Microsoft Playwright with C# and xUnit. The framework follows the Page Object Model design pattern to create maintainable and scalable automated tests.
 
-🛠️ Technology Stack
-Programming Language: C# (.NET 8.0)
-Test Framework: xUnit (v2.9.3)
-Browser Automation: Microsoft Playwright (v1.52.0)
-Design Pattern: Page Object Model (POM)
-Supported Browsers: Chromium, Firefox
-📁 Project Structure
-The project follows a clean, organized structure:
+## 🛠️ Technology Stack
+- **Programming Language: C# (.NET 8.0)
+- **Test Framework: xUnit (v2.9.3)
+- **Browser Automation: Microsoft Playwright (v1.52.0)
+- **Design Pattern: Page Object Model (POM)
+- **Supported Browsers: Chromium, Firefox
+- 
+## 📁 Project Structure
+- **The project follows a clean, organized structure:
 
 TokeroTests/
 ├── Pages/
