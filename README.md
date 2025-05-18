@@ -19,16 +19,16 @@ This guide walks you through setting up a local development environment to run a
    Run this from the project root:
      dotnet restore
    or
-    dotnet add package Microsoft.Playwright --version 1.52.0
-    dotnet add package Microsoft.Playwright.NUnit --version 1.52.0
-    dotnet add package xunit --version 2.9.3
-    dotnet add package xunit.runner.visualstudio --version 3.1.0
+    - dotnet add package Microsoft.Playwright --version 1.52.0
+    - dotnet add package Microsoft.Playwright.NUnit --version 1.52.0
+    - dotnet add package xunit --version 2.9.3
+    - dotnet add package xunit.runner.visualstudio --version 3.1.0
 4. Install Playwright Browsers
    Playwright needs to download and install its browser binaries:
-     playwright install
+     - playwright install
    or
-     dotnet tool install --global Microsoft.Playwright.CLI
-     playwright install
+     - dotnet tool install --global Microsoft.Playwright.CLI
+     - playwright install
 5. Optional: Test Runner Support in IDE
    If you're using Visual Studio:
    - Make sure Test Explorer is enabled.
@@ -37,7 +37,7 @@ This guide walks you through setting up a local development environment to run a
    - Install the appropriate .NET and xUnit extensions/plugins.
 ## 🧪 Running Tests
 Once all dependencies are set up:
-  dotnet test
+  - dotnet test
 
 
      
